@@ -1,108 +1,8 @@
-<!DOCTYPE html>
-<html lang="no">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>DeltParkering – Lei ut parkeringsplassen din</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      margin: 0;
-      padding: 2rem;
-      color: #111;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      text-align: center;
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    h2 {
-      font-weight: normal;
-      color: #333;
-      margin-bottom: 2rem;
-    }
-    .button-row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-      margin-bottom: 3rem;
-    }
-    .button {
-      background: #1ca2b1;
-      color: white;
-      padding: 1rem 2rem;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-    .section {
-      text-align: left;
-      margin-bottom: 2rem;
-    }
-    .section h3 {
-      margin-bottom: 1rem;
-    }
-    .icon-list {
-      list-style: none;
-      padding: 0;
-    }
-    .icon-list li {
-      margin: 0.5rem 0;
-      padding-left: 1.5rem;
-      background: url('https://img.icons8.com/ios-glyphs/30/000000/ok--v1.png') no-repeat left center;
-      background-size: 1rem;
-    }
-    .grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      justify-content: center;
-    }
-    .card {
-      background: #eef0f3;
-      padding: 1rem;
-      border-radius: 8px;
-      flex: 1 1 300px;
-    }
-    form {
-      margin-top: 2rem;
-      text-align: center;
-    }
-    input[type="email"] {
-      padding: 0.8rem;
-      width: 70%;
-      max-width: 300px;
-      margin-bottom: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    button {
-      background: #1ca2b1;
-      color: white;
-      padding: 0.8rem 1.2rem;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    footer {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-    }
-    @media (max-width: 600px) {
-      .button-row {
-        flex-direction: column;
-      }
-    }
-  </style>
-</head>
+<!-- (resten av <head> og styling uendret) -->
 <body>
   <div class="container">
+    <img src="DeltParkering_logo.png" alt="DeltParkering logo" class="logo" />
+
     <h1>Lei ut parkeringsplassen din – tjen penger mens du er på jobb</h1>
     <h2>Bli med på Norges første delingsplattform for private parkeringsplasser.</h2>
 
@@ -121,28 +21,8 @@
       <strong>100 % forsikret. Full kontroll. Ingen bindingstid.</strong>
     </div>
 
-    <div class="grid">
-      <div class="card">
-        <strong>Utleier:</strong>
-        <ul>
-          <li>Fullt navn</li>
-          <li>E-post</li>
-          <li>Adresse til parkeringsplassen</li>
-          <li>Når er plassen ledig (klokkeslett og ukedager)</li>
-          <li>Last opp bilde (valgfritt)</li>
-        </ul>
-      </div>
-      <div class="card">
-        <strong>Leietaker:</strong>
-        <ul>
-          <li>Fullt navn</li>
-          <li>E-post</li>
-          <li>Hvor trenger du parkering?</li>
-          <li>Når og hvor lenge?</li>
-          <li>Er du interessert i fast plass?</li>
-        </ul>
-      </div>
-    </div>
+    <!-- Flyttet annonsebildet hit -->
+    <img src="deltparkering_annonse.png" alt="Annonsebilde - Tjen penger på plassen du ikke bruker" class="promo" />
 
     <div class="section">
       <h3>Fordeler</h3>
@@ -154,13 +34,10 @@
       </ul>
     </div>
 
-    <form>
-      <h3>Få beskjed når vi lanserer!</h3>
-      <p>Legg igjen e-post – bli med i første testgruppe og få gratis parkering første gang</p>
-      <input type="email" placeholder="E-post" required />
-      <br />
-      <button type="submit">Hold meg oppdatert</button>
-    </form>
+    <h3>Få beskjed når vi lanserer!</h3>
+    <p>Legg igjen e-post – bli med i første testgruppe og få gratis parkering første gang</p>
+
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeEksempelURL/viewform?embedded=true">Laster skjema...</iframe>
 
     <footer>
       <p>Kontakt: kontakt@delparkering.no</p>
@@ -168,4 +45,4 @@
     </footer>
   </div>
 </body>
-</html>
+
