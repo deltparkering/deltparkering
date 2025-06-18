@@ -1,4 +1,92 @@
-<!-- (resten av <head> og styling uendret) -->
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeltParkering – Lei ut parkeringsplassen din</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 2rem;
+      color: #111;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    img.logo {
+      max-width: 280px;
+      margin: 0 auto 2rem;
+      display: block;
+    }
+    img.promo {
+      width: 100%;
+      max-width: 600px;
+      margin: 2rem auto;
+      display: block;
+      border-radius: 10px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-weight: normal;
+      color: #333;
+      margin-bottom: 2rem;
+    }
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 3rem;
+    }
+    .button {
+      background: #1ca2b1;
+      color: white;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .section {
+      text-align: left;
+      margin-bottom: 2rem;
+    }
+    .section h3 {
+      margin-bottom: 1rem;
+    }
+    .icon-list {
+      list-style: none;
+      padding: 0;
+    }
+    .icon-list li {
+      margin: 0.5rem 0;
+      padding-left: 1.5rem;
+      background: url('https://img.icons8.com/ios-glyphs/30/000000/ok--v1.png') no-repeat left center;
+      background-size: 1rem;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      margin-top: 2rem;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      .button-row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
 <body>
   <div class="container">
     <img src="DeltParkering_logo.png" alt="DeltParkering logo" class="logo" />
@@ -21,8 +109,7 @@
       <strong>100 % forsikret. Full kontroll. Ingen bindingstid.</strong>
     </div>
 
-    <!-- Flyttet annonsebildet hit -->
-    <img src="deltparkering_annonse.png" alt="Annonsebilde - Tjen penger på plassen du ikke bruker" class="promo" />
+    
 
     <div class="section">
       <h3>Fordeler</h3>
@@ -45,4 +132,6 @@
     </footer>
   </div>
 </body>
+</html>
+
 
